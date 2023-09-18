@@ -23,5 +23,8 @@ func main() {
 
 	fmt.Println(len(meuArray) - 1)
 	fmt.Println(meuArray[len(meuArray)-1])
+	for i, v := range meuArray {
+		fmt.Printf("O valor do indice %d é %d\n", i, v)
+	}
 
 }
