@@ -8,6 +8,9 @@ import (
 
 func main() {
 	s := matematica.Soma(10, 20)
-	fmt.Printf("Resultado soma :  %v", s)
+	carro := matematica.Carro{Marca: "Fiat"}
+	fmt.Println(carro.Marca)
+	fmt.Println("Resultado:", s)
+	fmt.Println("Resultado soma :", s)
 
 }
